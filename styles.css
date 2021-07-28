@@ -1,0 +1,384 @@
+body {
+    background:white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  header {
+      background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+      width: 100vw;
+      height: 95vh;
+      background-size: cover;
+      background-position: center;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      margin-bottom: 60px;
+
+  }
+  .header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 60px;  
+  }
+  .company-name-container {
+      color:gold;
+      font-size: 180%;
+      font-family: 'Lucida Handwriting', cursive;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu a {
+    padding: 20px;
+    font-size: 15px;
+    color: azure;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .nav-menu a:hover {
+    text-decoration: none;
+    color:gold;
+  }
+  h3 {
+      color: white;
+      font-size: 40px;
+      font-style: oblique;
+      margin-top: 11%;
+      font-weight: 350;
+  }
+  h1 {
+      color: white;
+      font-size: 75px;
+      text-transform: uppercase;
+  }
+  #info-btn {
+      background-color: gold;
+      line-height: 1.5;
+      padding: 20px 40px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 450;
+      color: white;
+  }
+  #info-btn:hover {
+      background-color: goldenrod;
+  }
+  .fas {
+      text-align: center;
+      background-color: gold;
+      border-radius: 50%;
+      color: white;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      vertical-align: middle;
+      padding: 10px;
+
+  }
+  #services-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90vw;
+  }
+  .icon-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    background-color: gold;
+    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
+  }
+  #service-title h1 {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  #service-title {
+    margin-bottom: 70px;
+  }
+  #service-title p {
+    color: gray;
+    font-style: oblique;
+  }
+  .service-box p {
+    color: gray;
+
+  }
+  #portfolio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  #portfolio-title h1 {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .portfolio-section {
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  .portfolio-box {
+    width: 29vw;
+    background-color: white;
+  }
+  .overlay {
+    display: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: gold;
+    z-index: 9;
+  }
+  .portfolio-box img {
+    width: 100%;
+  }
+  .portfolio-box:hover .overlay  {
+    display: block;
+  }
+  .portfolio-section p {
+    color: gray;
+    font-style: oblique;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-row {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: center;
+    padding-bottom: 10vh;
+  }
+  .about-box {
+    width: 30vw;
+    margin: 0 auto;
+  }
+  .about-section h1 {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .about-section p {
+    color: gray;
+    font-style: oblique;
+  }
+  .image-box img {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    border: 7px solid lightgrey
+  }
+  .text-align-left {
+    text-align: left;
+  }
+  .text-align-right {
+    text-align: right;
+  }
+  .image-box h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .image-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .image-textbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: gold;
+    border: 7px solid lightgrey;
+
+  }
+  .team-section {
+    background-color: whitesmoke;
+    width: 100%;
+  }
+  .about-team h1 {
+    color: black;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .about-team p {
+    color: gray;
+    font-style: oblique;
+  }
+  #team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    width:90vw;
+    margin: 0 auto;
+  }
+  .team-member img {
+    border-radius: 50%;
+    border: 7px solid lightgrey;
+    width: 40%;
+    height: 40%;
+  }
+  .team-social {
+    width:8vw;
+    margin: 0 auto;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  .team-image p{
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+    
+  }
+  .team-description {
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .team-image h2 {
+    font-size: 30px;
+  }
+  .contact-title h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    margin-top: 90px;
+  }
+  .contact-title  {
+    margin-bottom: 70px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .contact-title p {
+    color: gray;
+    font-style: oblique;
+  }
+  .contact-section {
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png');
+    background-color: #212529;
+    width: 100vw;
+    height: 75vh;
+    background-size: contain;
+    background-position: center;
+  }
+  .form-control {
+    width: 600px;
+    height: 50px;
+    flex-direction: row;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .wrapper-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .message-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: top;
+    }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width:85vw;
+    margin: 0 auto;
+  }
+  .footer-icons {
+    width:8vw;
+    margin: 0 auto;
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+  .send-btn {
+    background-color: rgba(255, 217, 0, 0.397);
+    line-height: 1.5;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 450;
+    color: white;
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  textarea {
+    width: 600px;
+    height: 290px;
+  }
+  .document-links a {
+    margin-left: 20px;
+  }
+  .company-section {
+    width:100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .company-logos img {
+    width: 50%;
+    height: 20vh;
+  }
+  .company-logos {
+    display: flex;
+    width:90vw;
+    margin: 0 auto;
+  }
+  
